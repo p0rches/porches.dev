@@ -52,7 +52,7 @@ export default function Home() {
                   <h3 className="text-2xl font-bold">A simple to-do web app</h3>
                   <p>My first React application using typescript; helped me explore the basics of hooks.</p>
                   <p>I intentionally kept it simple as I wanted a lightweight, relatively nice looking app.</p>
-                  <p>Doesn't store information so refreshing will remove tasks currently...</p>
+                  <p>{'Doesn\'t store information so refreshing will remove tasks currently...'}</p>
                 </div>
               </div>
             </div>
