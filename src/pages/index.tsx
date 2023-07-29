@@ -72,7 +72,7 @@ export default function Home() {
               </div>
             </div>
           </div>
-          <div className="pt-4">
+          <div className="pt-6">
             <h3 className="text-2xl font-bold">Contact Info</h3>
             <div className="flex flex-row gap-4 text-3xl text-zinc-500">
               <Link
