@@ -8,7 +8,7 @@ export const MobileLayout = () => {
           className="flex w-full flex-col gap-4 rounded-xl p-4 bg-gradient-to-t from-emerald-400 to-emerald-200 hover:bg-opacity-40"
           href="https://amillionlagers.com"
         >
-          <h3 className="text-2xl font-bold">amillionlagers.com</h3>
+          <h3 className="text-2xl font-bold">A Million Lagers</h3>
           <p>A fullstack web application designed, created, and deployed by myself.</p>
         </Link>
       </div>
@@ -28,7 +28,7 @@ export const MobileLayout = () => {
         <div className="flex flex-row w-full gap-4">
           <Link
             className="flex w-full flex-col gap-4 rounded-xl p-4 bg-gradient-to-t from-emerald-400 to-emerald-200 hover:bg-opacity-40"
-            href="https://create.t3.gg/en/introduction"
+            href=""
             target="_blank"
           >
             <h3 className="text-2xl font-bold">Polyrhythm Visualisation</h3>

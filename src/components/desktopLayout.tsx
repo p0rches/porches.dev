@@ -5,7 +5,7 @@ export const DesktopLayout = () => {
     <div className="grid grid-cols-1 gap-4 md:gap-8">
       <div className="flex flex-row w-full gap-4">
         <Link
-          className="flex w-full max-w-xs flex-col gap-4 rounded-xl p-4 bg-emerald-400 hover:bg-opacity-40"
+          className="flex w-full max-w-xs flex-col gap-4 rounded-xl p-4 bg-gradient-to-t from-emerald-400 to-emerald-200 hover:bg-opacity-40"
           href="https://amillionlagers.com"
         >
           <h3 className="text-2xl font-bold">amillionlagers.com</h3>
@@ -20,7 +20,7 @@ export const DesktopLayout = () => {
       <div>
         <div className="flex flex-row w-full gap-4">
           <Link
-            className="flex w-full max-w-xs flex-col gap-4 rounded-xl p-4 bg-emerald-400 hover:bg-opacity-40"
+            className="flex w-full max-w-xs flex-col gap-4 rounded-xl p-4 bg-gradient-to-t from-emerald-400 to-emerald-200 hover:bg-opacity-40"
             href="https://tasklist-personal.vercel.app/"
             target="_blank"
           >
@@ -37,8 +37,8 @@ export const DesktopLayout = () => {
       <div>
         <div className="flex flex-row w-full gap-4">
           <Link
-            className="flex w-full max-w-xs flex-col gap-4 rounded-xl p-4 bg-emerald-400 hover:bg-opacity-40"
-            href="https://create.t3.gg/en/introduction"
+            className="flex w-full max-w-xs flex-col gap-4 rounded-xl p-4 bg-gradient-to-t from-emerald-400 to-emerald-200 hover:bg-opacity-40"
+            href="/"
             target="_blank"
           >
             <h3 className="text-2xl font-bold">Polyrhythm Visualisation</h3>

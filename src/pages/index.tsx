@@ -13,7 +13,7 @@ export default function Home() {
         <title>porches.dev</title>
         <link rel="icon" href="/favicon.ico" />
       </Head>
-      <main className="flex min-h-screen flex-col bg-white text-black">
+      <main className="flex min-h-screen flex-col bg-gradient-to-b from-orange-50 to-white bg-opacity-30 text-black">
         <div className="container flex flex-col gap-4 p-8 sm:p-16">
           <h1 className="text-5xl font-extrabold tracking-tight sm:text-[5rem]">
             {'Hi, I\'m '}<span className="text-emerald-400 underline decoration-black">{'Alex'}</span>
@@ -26,7 +26,7 @@ export default function Home() {
             <p>{'I currently work as an Avaloq Consultant.'}</p>
           </div>
           <div>
-            <h2 className="text-2xl sm:text-4xl font-extrabold">
+            <h2 className="text-2xl sm:text-4xl font-extrabold pb-2">
               Projects
             </h2>
             {isDesktop && <DesktopLayout />}
