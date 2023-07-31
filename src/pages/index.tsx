@@ -22,7 +22,7 @@ export default function Home() {
             <h2 className="text-2xl sm:text-4xl font-extrabold">
               About me
             </h2>
-            <p>I am a Junior Engineer that enjoys making things in Typescript.</p>
+            <p>I am a Junior Engineer that enjoys making things, mostly in Typescript but I am learning C and Rust.</p>
             <p>{'I currently work as an Avaloq Consultant.'}</p>
           </div>
           <div>
