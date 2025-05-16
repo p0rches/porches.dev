@@ -22,7 +22,7 @@ export default function Home() {
             <h2 className="text-2xl sm:text-4xl font-extrabold">
               About me
             </h2>
-            <p>I am a Junior Engineer that enjoys making things, mostly in Typescript but I am learning C and Rust.</p>
+            <p>I am an engineer that enjoys making things, mostly in C and Go.</p>
             <p>{'I currently work as an Avaloq Consultant.'}</p>
           </div>
           <div>
@@ -36,7 +36,7 @@ export default function Home() {
             <h3 className="text-2xl font-bold">Contact Info</h3>
             <div className="flex flex-row gap-4 text-3xl text-zinc-500">
               <Link
-                href="mailto:ascott.sco@gmail.com"
+                href="mailto:as.consultingworks@gmail.com"
                 className="hover:text-zinc-900"
               >
                 <FaEnvelope />
