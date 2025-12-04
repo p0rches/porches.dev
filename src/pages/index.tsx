@@ -10,10 +10,10 @@ export default function Home() {
   return (
     <>
       <Head>
-        <title>porches.dev</title>
+        <title>Alexander Scott</title>
         <link rel="icon" href="/favicon.ico" />
       </Head>
-      <main className="flex min-h-screen flex-col bg-gradient-to-b from-orange-50 to-white bg-opacity-30 text-black">
+      <main className="flex min-h-screen flex-col text-black">
         <div className="container flex flex-col gap-4 p-8 sm:p-16">
           <h1 className="text-5xl font-extrabold tracking-tight sm:text-[5rem]">
             {'Hi, I\'m '}<span className="text-emerald-400 underline decoration-black">{'Alex'}</span>
@@ -23,18 +23,11 @@ export default function Home() {
               About me
             </h2>
             <p>I am an engineer that enjoys making things, mostly in C and Go.</p>
-            <p>{'I currently work as an Avaloq Consultant.'}</p>
-          </div>
-          <div>
-            <h2 className="text-2xl sm:text-4xl font-extrabold pb-2">
-              Projects
+            <p>{'I currently work as a Systems Developer for Canaccord Wealth.'}</p>
+            <h2 className="text-2xl sm:text-4xl font-extrabold pt-4">
+              Contact me
             </h2>
-            {isDesktop && <DesktopLayout />}
-            {!isDesktop && <MobileLayout />}
-          </div>
-          <div className="sm:pt-6">
-            <h3 className="text-2xl font-bold">Contact Info</h3>
-            <div className="flex flex-row gap-4 text-3xl text-zinc-500">
+            <div className="flex flex-row gap-4 text-5xl text-zinc-500">
               <Link
                 href="mailto:as.consultingworks@gmail.com"
                 className="hover:text-zinc-900"
@@ -48,15 +41,12 @@ export default function Home() {
                 <FaGithubSquare />
               </Link>
               <Link
-                href="https://www.linkedin.com/in/alexander-scott-consultant/"
+                href="https://www.linkedin.com/in/alexander-scott-dev/"
                 className="hover:text-zinc-900"
               >
                 <FaLinkedin />
               </Link>
             </div>
-          </div>
-          <div className="text-zinc-400">
-            Copyright © 2023 Alexander Scott. All rights reserved.
           </div>
         </div>
       </main>
