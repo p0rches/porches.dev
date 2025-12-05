@@ -13,16 +13,16 @@ export default function Home() {
         <title>Alexander Scott</title>
         <link rel="icon" href="/favicon.ico" />
       </Head>
-      <main className="flex min-h-screen justify-center items-center text-black">
+      <main className="flex min-h-screen justify-center items-center text-white bg-black">
         <div className="container flex flex-col gap-4 p-8 sm:p-16">
           <h1 className="text-5xl font-extrabold tracking-tight sm:text-[5rem] text-center">
-            {'Hi, I\'m '}<span className="text-emerald-400 underline decoration-black">{'Alex'}</span>
+            {'Hi, I\'m '}<span className="text-emerald-400 underline decoration-white">{'Alex'}</span>
           </h1>
           <div>
             <h2 className="text-4xl font-extrabold py-8 text-center">
               Contact me
             </h2>
-            <div className="max-w-3xs mx-auto flex flex-row gap-4 text-5xl text-zinc-500 justify-between">
+            <div className="max-w-3xs mx-auto flex flex-row gap-4 text-5xl text-zinc-400 justify-between">
               <Link
                 href="mailto:as.consultingworks@gmail.com"
                 className="hover:text-zinc-900"
